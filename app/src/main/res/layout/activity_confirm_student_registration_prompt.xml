@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ConfirmStudentRegistrationActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorPrimary">
+
+                        <TableRow android:background="@android:color/white">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginHorizontal="1dp"
+                                android:layout_marginBottom="1dp"
+                                android:layout_weight="1"
+                                android:textColor="@android:color/white"
+                                android:background="@color/colorPrimary"
+                                android:gravity="center"
+                                android:text="Firstname"
+                                android:textSize="20dp" />
+
+                            <TextView
+                                android:id="@+id/confirm_tb_addstudent_firstname"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="1dp"
+                                android:layout_marginBottom="1dp"
+                                android:layout_weight="1"
+                                android:textColor="@android:color/white"
+                                android:background="@color/colorPrimary"
+                                android:gravity="center"
+                                android:textSize="20dp" />
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginHorizontal="1dp"
+                                android:layout_marginBottom="1dp"
+                                android:layout_weight="1"
+                                android:background="@android:color/white"
+                                android:gravity="center"
+                                android:text="Middlename"
+                                android:textSize="20dp" />
+
+                            <TextView
+                                android:id="@+id/confirm_tb_addstudent_middlename"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="1dp"
+                                android:layout_marginBottom="1dp"
+                                android:layout_weight="1"
+                                android:background="@android:color/white"
+                                android:gravity="center"
+                                android:textSize="20dp" />
+                        </TableRow>
+
+                        <TableRow android:background="@android:color/white">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginHorizontal="1dp"
+                                android:layout_marginBottom="1dp"
+                                android:layout_weight="1"
+                                android:textColor="@android:color/white"
+                                android:background="@color/colorPrimary"
+                                android:gravity="center"
+                                android:text="Lastname"
+                                android:textSize="20dp" />
+
+                            <TextView
+                                android:id="@+id/confirm_tb_addstudent_lastname"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="1dp"
+                                android:layout_marginBottom="1dp"
+                                android:layout_weight="1"
+                                android:textColor="@android:color/white"
+                                android:background="@color/colorPrimary"
+                                android:gravity="center"
+                                android:textSize="20dp" />
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginHorizontal="1dp"
+                                android:layout_marginBottom="1dp"
+                                android:layout_weight="1"
+                                android:background="@android:color/white"
+                                android:gravity="center"
+                                android:text="Date Of Birth"
+                                android:textSize="20dp" />
+
+                            <TextView
+                                android:id="@+id/confirm_tb_addstudent_date_of_birth"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="1dp"
+                                android:layout_marginBottom="1dp"
+                                android:layout_weight="1"
+                                android:background="@android:color/white"
+                                android:gravity="center"
+                                android:textSize="20dp" />
+                        </TableRow>
+
+                        <TableRow android:background="@android:color/white">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginHorizontal="1dp"
+                                android:layout_marginBottom="1dp"
+                                android:layout_weight="1"
+                                android:textColor="@android:color/white"
+                                android:background="@color/colorPrimary"
+                                android:gravity="center"
+                                android:text="Gender"
+                                android:textSize="20dp" />
+
+                            <TextView
+                                android:id="@+id/confirm_tb_addstudent_gender"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="1dp"
+                                android:layout_marginBottom="1dp"
+                                android:layout_weight="1"
+                                android:textColor="@android:color/white"
+                                android:background="@color/colorPrimary"
+                                android:gravity="center"
+                                android:textSize="20dp" />
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginHorizontal="1dp"
+                                android:layout_marginBottom="1dp"
+                                android:layout_weight="1"
+                                android:background="@android:color/white"
+                                android:gravity="center"
+                                android:text="Email Id"
+                                android:textSize="20dp" />
+
+                            <TextView
+                                android:id="@+id/confirm_tb_addstudent_email"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="1dp"
+                                android:layout_marginBottom="1dp"
+                                android:layout_weight="1"
+                                android:background="@android:color/white"
+                                android:gravity="center"
+                                android:textSize="20dp" />
+                        </TableRow>
+
+                        <TableRow android:background="@android:color/white">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginHorizontal="1dp"
+                                android:layout_marginBottom="1dp"
+                                android:layout_weight="1"
+                                android:textColor="@android:color/white"
+                                android:background="@color/colorPrimary"
+                                android:gravity="center"
+                                android:text="Mobile No"
+                                android:textSize="20dp" />
+
+                            <TextView
+                                android:id="@+id/confirm_tb_addstudent_mobileno"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="1dp"
+                                android:layout_marginBottom="1dp"
+                                android:layout_weight="1"
+                                android:textColor="@android:color/white"
+                                android:background="@color/colorPrimary"
+                                android:gravity="center"
+                                android:textSize="20dp" />
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginHorizontal="1dp"
+                                android:layout_marginBottom="1dp"
+                                android:layout_weight="1"
+                                android:background="@android:color/white"
+                                android:gravity="center"
+                                android:text="Address"
+                                android:textSize="20dp" />
+
+                            <TextView
+                                android:id="@+id/confirm_tb_addstudent_address"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="1dp"
+                                android:layout_marginBottom="1dp"
+                                android:layout_weight="1"
+                                android:background="@android:color/white"
+                                android:gravity="center"
+                                android:textSize="20dp" />
+                        </TableRow>
+
+                        <TableRow android:background="@android:color/white">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginHorizontal="1dp"
+                                android:layout_marginBottom="1dp"
+                                android:layout_weight="1"
+                                android:textColor="@android:color/white"
+                                android:background="@color/colorPrimary"
+                                android:gravity="center"
+                                android:text="State"
+                                android:textSize="20dp" />
+
+                            <TextView
+                                android:id="@+id/confirm_tb_addstudent_state"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="1dp"
+                                android:layout_marginBottom="1dp"
+                                android:layout_weight="1"
+                                android:textColor="@android:color/white"
+                                android:background="@color/colorPrimary"
+                                android:gravity="center"
+                                android:textSize="20dp" />
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginHorizontal="1dp"
+                                android:layout_marginBottom="1dp"
+                                android:layout_weight="1"
+                                android:background="@android:color/white"
+                                android:gravity="center"
+                                android:text="Enrollment No"
+                                android:textSize="20dp" />
+
+                            <TextView
+                                android:id="@+id/confirm_tb_addstudent_enrollmentno"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="1dp"
+                                android:layout_marginBottom="1dp"
+                                android:layout_weight="1"
+                                android:background="@android:color/white"
+                                android:gravity="center"
+                                android:textSize="20dp" />
+                        </TableRow>
+
+                        <TableRow android:background="@android:color/white">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginHorizontal="1dp"
+                                android:layout_marginBottom="1dp"
+                                android:layout_weight="1"
+                                android:textColor="@android:color/white"
+                                android:background="@color/colorPrimary"
+                                android:gravity="center"
+                                android:text="Branch"
+                                android:textSize="20dp" />
+
+                            <TextView
+                                android:id="@+id/confirm_spinner_addstudent_branch"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="1dp"
+                                android:layout_marginBottom="1dp"
+                                android:layout_weight="1"
+                                android:textColor="@android:color/white"
+                                android:background="@color/colorPrimary"
+                                android:gravity="center"
+                                android:textSize="20dp" />
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginHorizontal="1dp"
+                                android:layout_marginBottom="1dp"
+                                android:layout_weight="1"
+                                android:background="@android:color/white"
+                                android:gravity="center"
+                                android:text="Semester"
+                                android:textSize="20dp" />
+
+                            <TextView
+                                android:id="@+id/confirm_spinner_addstudent_semester"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="1dp"
+                                android:layout_marginBottom="1dp"
+                                android:layout_weight="1"
+                                android:background="@android:color/white"
+                                android:gravity="center"
+                                android:textSize="20dp" />
+                        </TableRow>
+
+                        <TableRow android:background="@android:color/white">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginHorizontal="1dp"
+                                android:layout_marginBottom="1dp"
+                                android:layout_weight="1"
+                                android:textColor="@android:color/white"
+                                android:background="@color/colorPrimary"
+                                android:gravity="center"
+                                android:text="Institute"
+                                android:textSize="20dp" />
+
+                            <TextView
+                                android:id="@+id/confirm_tb_addstudent_institutename"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="1dp"
+                                android:layout_marginBottom="1dp"
+                                android:layout_weight="1"
+                                android:textColor="@android:color/white"
+                                android:background="@color/colorPrimary"
+                                android:gravity="center"
+                                android:textSize="20dp" />
+                        </TableRow>
+                    </TableLayout>
+                </LinearLayout>
+            </HorizontalScrollView>
+
+    </LinearLayout>
+</ScrollView>

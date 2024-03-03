@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Student Management System</string>
+    <string name="ic_student_signin">Student Sign Logo</string>
+    <string name="ic_admin_signin">Admin Sign Logo</string>
+    <string name="txt_student_signin">Student</string>
+    <string name="txt_admin_signin">Admin</string>
+    <string name="tb_username_signin">Username</string>
+    <string name="tb_password_signin">Password</string>
+    <string name="btn_signin">SIGN IN</string>
+    <string name="btn_signup">SIGN UP</string>
+    <string name="txt_or">OR</string>
+    <string name="ic_computer_signin">Computer Logo</string>
+    <string name="ic_electrical_signin">Electrical Logo</string>
+    <string name="ic_mechanical_signin">Mechanical Logo</string>
+    <string name="ic_civil_signin">Civil Logo</string>
+    <string name="img_app_logo_animation">Application Logo</string>
+
+    <string-array name="array_branch_name">
+        <item>--Select Branch--</item>
+        <item>Computer Engineering</item>
+        <item>Information Technology</item>
+        <item>Electrical Engineering</item>
+        <item>Electronics and Communication Engineering</item>
+        <item>Mechanical Engineering</item>
+        <item>Civil Engineering</item>
+    </string-array>
+
+    <string-array name="array_semester">
+        <item>--Select Semester--</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+</resources>

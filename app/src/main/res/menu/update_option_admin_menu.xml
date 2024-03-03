@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/adminDetailsUpdateMenu"
+        android:title="Update"
+        android:icon="@drawable/ic_update_details"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/adminDetailsSignOutMenu"
+        android:title="Sign Out"
+        android:icon="@drawable/ic_signout"
+        app:showAsAction="always"/>
+
+    <item android:title="Choose Action"
+    android:icon="@drawable/ic_more_option"
+    app:showAsAction="always">
+    <menu>
+    <item
+        android:id="@+id/adminAddAdminMenu"
+        android:title="Add Admin"
+        android:icon="@drawable/ic_add_admin"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/admin_studentDetailsMenu"
+        android:title="Student Details"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_admin_student_details"/>
+
+    <item
+        android:id="@+id/admin_share_message_to_student"
+        android:title="Share Message"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_share_message"/>
+</menu>
+</item>
+
+</menu>
