@@ -41,5 +41,9 @@ The proposed online student registration system aims to eliminate manual interve
 
 This system aims to simplify student information management for administrators and students alike, making tasks such as registration and profile updates more convenient and efficient.
 
-![image](https://github.com/PATHIKPATEL1/Student-Registration-System-App/assets/161973323/436e7786-3bfd-4b1b-8307-26640eab1d79)    ![image](https://github.com/PATHIKPATEL1/Student-Registration-System-App/assets/161973323/29d1ce2f-1037-4256-b593-c617d7eb82b3)
+![image](https://github.com/PATHIKPATEL1/Student-Registration-System-App/assets/161973323/436e7786-3bfd-4b1b-8307-26640eab1d79)   
+
+
+
+![image](https://github.com/PATHIKPATEL1/Student-Registration-System-App/assets/161973323/29d1ce2f-1037-4256-b593-c617d7eb82b3)
 
